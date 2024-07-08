@@ -31,18 +31,14 @@ To run this project locally, follow these steps:
 Clone the repository:
 
 bash
-Copy code
-git clone https://github.com/your-username/calculator-app.git
-cd calculator-app
+https://github.com/Riya12aAa12/Confetti-Calculator-using-React-Js.git
 Install dependencies:
 
 bash
-Copy code
 npm install
 Start the development server:
 
 bash
-Copy code
 npm start
 Open your browser and visit http://localhost:3000 to use the calculator.
 
