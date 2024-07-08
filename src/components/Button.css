@@ -1,0 +1,41 @@
+.button {
+    background-color: #e0e0e0;
+    color: black;
+    font-size: 1.2em;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #ccc;
+}
+
+.button.operator {
+    background-color: #f7931e;
+    color: white;
+}
+
+.button.operator:hover {
+    background-color: #f9a41e;
+}
+
+.button.zero {
+    grid-column: span 2;
+}
+
+.button.decimal {
+    background-color: inherit; 
+    color: inherit;
+}
+
+.button.clear {
+    background-color: inherit; 
+    color: inherit; 
+}
+
+.button.plus-minus {
+    background-color:5A5A5A; 
+    color: white; 
+}

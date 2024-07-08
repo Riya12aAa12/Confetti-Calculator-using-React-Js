@@ -1,0 +1,118 @@
+.calculator {
+    width: 1000px;
+    height: auto;
+    margin: 0;
+    padding: calc(80px - 100px);
+    background: #4D4D4D;
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 2);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+}
+
+.dots {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: flex;
+}
+
+.dot {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+
+.dot.red {
+    background-color: red;
+}
+
+.dot.yellow {
+    background-color: yellow;
+}
+
+.dot.green {
+    background-color: green;
+}
+
+.display {
+    background: #343232;
+    color: white;
+    font-size: 2.5em;
+    padding: 20px;
+    text-align: right;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin: 0;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 2px;
+}
+
+.button {
+    background: #5A5A5A;
+    color: white;
+    font-size: 1.2em;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.button:hover {
+    background: #777;
+}
+
+.button.operator {
+    background: #f1b167;
+    color: white;
+}
+
+.button.operator.yellow {
+    background: rgb(216, 135, 59);
+}
+
+.button.operator:hover {
+    background: #F9A41E;
+}
+
+.button.zero {
+    grid-column: span 2;
+    font-size: 1.5em;
+    padding: 20px;
+}
+
+.button.plus-minus,
+.button.dot {
+    font-size: 1.2em;
+    padding: 15px;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+    transition: background 0.2s;
+    column-span: 0;
+}
+
+.button.clear {
+    background-color: #5A5A5A;
+    color: white;
+}
+
+.rad-btm-lgt {
+    border-bottom-left-radius: 15px;
+}
+
+.eql-btm-rgt {
+    border-bottom-right-radius: 15px;
+}
+
+.button.number {
+    color: #ffffff;
+    background-color: #989494;
+}
